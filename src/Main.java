@@ -24,32 +24,30 @@ public class Main {
         System.out.println();
 
         System.out.println("Задание 3");
-        int[] weight3 = new int[3];
-        weight3[2] = 1;
-        weight3[1] = 2;
-        weight3[0] = 3;
-        for (int i = 3; i < weight3.length; i++) {
+        weight[2] = 1;
+        weight[1] = 2;
+        weight[0] = 3;
+        for (int i = 3; i < weight.length; i++) {
         }
-        System.out.println(Arrays.toString(weight3));
+        System.out.println(Arrays.toString(weight));
 
-        double[] weight4 = new double[]{1.56, 7.654, 9.986};
-        for (int i = weight4.length - 1; i >= 0; i--) {
-            System.out.print(weight4[i]);
+        for (int i = weight1.length - 1; i >= 0; i--) {
+            System.out.print(weight1[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
 
-        int[] weight5 = new int[]{1, 3, 5, 7, 9, 11, 13, 15};
-        for (int i = weight5.length - 1; i >= 0; i--) {
-            System.out.print(weight5[i]);
+        for (int i = weight2.length - 1; i >= 0; i--) {
+            System.out.print(weight2[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         System.out.println();
+
         System.out.println("Задание 4");
         int[] i = {1, 2, 3};
         for (int a = 0; a <i.length; a++) {
@@ -61,6 +59,5 @@ public class Main {
                 System.out.print(", ");
             }
         }
-
     }
 }
